@@ -11,5 +11,5 @@
   ],
   "name": "Awesome fox pictures",
   "short_name": "Foxes",
-  "start_url": "http://localhost:8000"
+  "start_url": "/shortcut-icon/index.html"
 }
