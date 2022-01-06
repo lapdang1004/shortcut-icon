@@ -10,7 +10,14 @@
   <body>
     <button class="add-button">Add to home screen</button>
     <script>
-      let deferredPrompt;
+      $(document).ready(function () {
+        let deferredPrompt;
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+            .register('/shortcut-icon/sw.js')
+            .then((res) => { console.log('Service Worker Registered', res); });
+        }
+
         const addBtn = document.querySelector('.add-button');
         addBtn.style.display = 'none';
 
@@ -40,6 +47,7 @@
             });
           });
         });
+      })
     </script>
   </body>
 </html>
