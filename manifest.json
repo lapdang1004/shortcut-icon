@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Shows gamevnpay",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/fox-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Shows gamevnpay",
+  "short_name": "gamevnpay",
+  "start_url": "https://lapdang1004.github.io/shortcut-icon/"
+}
